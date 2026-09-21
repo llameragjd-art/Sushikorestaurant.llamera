@@ -40,22 +40,28 @@ header
     margin: 0;
     color: white;
 }
-main
+.sushis
 {
-    padding-left: 20px;
+    display: flex;
+
 }
-main h1
+.info h1
 {
-    color: white;
     font-style: italic;
-    margin-top: 70px;
+    padding-top: 30px;
+    margin-left: 150px;
+    color: white;
 }
-main p
+.sushis img
+{
+    padding-top: 60px;
+}
+.info p
 {
     font-size: larger;
     color:white;
 }
-main button
+.info button
 {
     padding: 15px 60px;
     border-radius: 30px;
@@ -66,13 +72,7 @@ button:hover
 {
     background-color: rgb(243, 198, 0);
 }
-.picture
+.information h2
 {
-    position: absolute;
-    right: 200px;
-    top: 250px;
-}
-.picture img
-{
-    width: 900px;
+    color: white;
 }

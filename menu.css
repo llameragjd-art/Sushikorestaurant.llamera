@@ -52,6 +52,7 @@ h1
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 55px;
 }
 .container1 img
 {
@@ -108,6 +109,50 @@ h1
    
 }
 #button4:hover
+{
+      background-color: rgb(243, 198, 0);
+}
+#button5
+{
+    background-color: rgb(238, 59, 5);
+    padding: 10px;
+    border-radius: 15px;
+   
+}
+#button5:hover
+{
+      background-color: rgb(243, 198, 0);
+}
+#button6
+{
+    background-color: rgb(238, 59, 5);
+    padding: 10px;
+    border-radius: 15px;
+   
+}
+#button6:hover
+{
+      background-color: rgb(243, 198, 0);
+}
+#button7
+{
+    background-color: rgb(238, 59, 5);
+    padding: 10px;
+    border-radius: 15px;
+   
+}
+#button7:hover
+{
+      background-color: rgb(243, 198, 0);
+}
+#button8
+{
+    background-color: rgb(238, 59, 5);
+    padding: 10px;
+    border-radius: 15px;
+   
+}
+#button8:hover
 {
       background-color: rgb(243, 198, 0);
 }
