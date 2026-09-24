@@ -156,3 +156,11 @@ h1
 {
       background-color: rgb(243, 198, 0);
 }
+footer
+{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}

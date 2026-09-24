@@ -76,3 +76,11 @@ button:hover
 {
     color: white;
 }
+footer
+{
+    position: absolute;
+    bottom: 150px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}

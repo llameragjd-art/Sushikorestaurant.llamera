@@ -40,23 +40,35 @@ header
     margin: 0;
     color: white;
 }
-main
+#header 
 {
-    padding-left: 20px;
-}
-main h1
-{
-    color: white;
     font-style: italic;
-    margin-top: 70px;
+    color: white;
+    padding-left: 30px;
 }
-main p
+.inputs 
 {
-    font-size: larger;
-    color:white;
+    
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+
+
 }
-main button
+.inputs input
 {
+   margin-left: 30px;
+   padding: 10px;
+   width: 500px;
+   border: 2px solid transparent;
+   border-radius: 12px;
+   box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+button
+{
+    margin-left: 30px;
+    margin-top: 30px;
+
     padding: 15px 60px;
     border-radius: 30px;
     color: white;
@@ -65,6 +77,14 @@ main button
 button:hover
 {
     background-color: rgb(243, 198, 0);
+}
+footer
+{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
 }
 .picture
 {
@@ -75,12 +95,4 @@ button:hover
 .picture img
 {
     width: 700px;
-}
-footer
-{
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    text-align: center;
-    color: white;
 }
